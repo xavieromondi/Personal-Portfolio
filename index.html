@@ -1,0 +1,444 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+        <script src="https://kit.fontawesome.com/ad3a4347cc.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Xavier Omondi | Portfolio</title>
+        <link rel="website icon" type="png" href="assets/nobglogo.png">
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav_bar">
+                <a href="#home"><span class="logo nav_logo">X</span> Omondi</a>
+                <div class="nav_menu_btn" id="menu-btn">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+            <ul class="nav_links" id="nav-links">
+                <li><a href="#home"><lord-icon src="https://cdn.lordicon.com/jeuxydnh.json" trigger="morph"
+                            state="hover-partial-roll" colors="primary:#e9615e,secondary:#ec9956">
+                        </lord-icon></a></li>
+                <li><a href="#about"><lord-icon src="https://cdn.lordicon.com/kdduutaw.json" trigger="morph"
+                            state="hover-looking-around" colors="primary:#e9615e,secondary:#ec9956">
+                        </lord-icon></a></li>
+                <li><a href="#skillset"><lord-icon src="https://cdn.lordicon.com/fwkrbvja.json" trigger="morph"
+                            colors="primary:#e9615e,secondary:#ec9956">
+                        </lord-icon></a></li>
+                <li><a href="#resume"><lord-icon src="https://cdn.lordicon.com/zhiiqoue.json" trigger="morph"
+                            state="morph-open" colors="primary:#e9615e,secondary:#ec9956">
+                        </lord-icon></a></li>
+                <li><a href="#project"><lord-icon src="https://cdn.lordicon.com/yvjimpju.json" trigger="morph"
+                            colors="primary:#e9615e,secondary:#ec9956">
+                        </lord-icon></a></li>
+                <li><a href="#testimonial"><lord-icon src="https://cdn.lordicon.com/fozsorqm.json" trigger="morph" 
+                    colors="primary:#ec9956,secondary:#e9615e">
+                </lord-icon></a></li>
+                <li><a href="#contact"><lord-icon src="https://cdn.lordicon.com/jdgfsfzr.json" trigger="morph"
+                            colors="primary:#e9615e,secondary:#ec9956">
+                        </lord-icon></a></li>
+            </ul>
+        </nav>
+
+        <header class="section_container header_container" id="home">
+            <div class="header_image">
+                <dotlottie-player src="https://lottie.host/252ff57b-fc73-460b-858d-dffe18712e16/Kahk4JuSIp.lottie"
+                            background="transparent" speed="1" style="width: 600px; height: 400px" loop autoplay>
+                        </dotlottie-player>
+            </div>
+            <div class="header_content">
+                <div>
+                    <h1>Xavier Omondi</h1>
+                </div>
+                <p class="section_description">
+                    Founder, Riara Cloud Hub | Backend Engineer – Java Microservices, React & AWS Deployment
+                    Passionate about building cloud-native, payment-integrated systems with real-world impact. AWS Certified | Skilled in Java, Spring Boot, React, Docker, and CI/CD with GitHub Actions.
+                </p>
+                <div class="header_btn">
+                    <a href="#contact"><button class="btn">Contact Me</button></a>
+
+                </div>
+            </div>
+        </header>
+
+        <section class="section_container about_container" id="about">
+            <div class="about_image">
+                <dotlottie-player
+                src="https://lottie.host/317b0d33-8c7a-4d96-8a96-d5b9a7841294/iEqCUFwuGV.lottie"
+                background="transparent"
+                speed="1"
+                style="width: 400px; height: 600px"
+                loop
+                autoplay
+              ></dotlottie-player>
+            </div>
+            <div class="about_content">
+                <h2 class="section_header">About Me</h2>
+                <p class="section_description">
+                   I’m a passionate and driven backend engineer with a strong foundation in Java and Spring Boot,  
+                   focused on building scalable, event-driven microservices and cloud-native applications.<br /><br />
+
+                   A proud graduate of Masinde Muliro University with a Diploma in Information Technology,  
+                   I specialize in backend development, cloud computing (AWS), and web development.<br /><br />
+
+                   I’ve built complete transport systems,  
+                   integrated production-level C2B M-Pesa payments,  
+                   developed dynamic React frontends,  
+                   and deployed full-stack applications using Docker, Amazon ECS Fargate, S3, and GitHub Actions for CI/CD pipelines.<br /><br />
+
+                   I’m also an AWS Certified Cloud Practitioner,  
+                   and continuously deepen my expertise in DevOps and cloud automation.<br /><br />
+
+                   Beyond backend systems, I have a deep fascination with microprocessors like the 6502 and Raspberry Pi,  
+                   which fuel my curiosity about how technology works at the hardware level.<br /><br />
+
+                   I’m also the founder of Riara Cloud Hub,  
+                   a company committed to delivering innovative machine learning and cloud-based solutions  
+                   for businesses in Africa and beyond.<br /><br />
+
+                   Whether I’m exploring machine learning, writing clean Java code,  
+                   or wiring up end-to-end cloud infrastructure,  
+                   I’m always focused on solving real-world problems through thoughtful, impactful technology.
+
+                </p>
+                <div class="about_btn">
+                    <a href="https://kevink-resume.tiiny.site" target="_blank" rel="noopener noreferrer"><button
+                            class="btn">View Resume</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_container service_container" id="skillset">
+            <h2 class="section_header">Skillset</h2>
+            <div class="service_grid">
+                <div class="service_card">
+                    <span><i class="ri-javascript-line"></i></span>
+                    <h4>JavaScript</h4>
+                </div>
+                <div class="service_card">
+                    <span><i class="ri-git-merge-line"></i></span>
+                    <h4>Git</h4>
+                </div>
+                <div class="service_card">
+                    <span><i class="ri-firebase-line"></i></span>
+                    <h4>MongoDB</h4>
+                </div>
+                <div class="service_card">
+                    <span><img src="assets/kotlin-60.png" alt=""></span>
+                    <h4>SQL</h4>
+                </div>
+                <div class="service_card">
+                    <span><i class="ri-java-fill"></i></span>
+                    <h4>Java</h4>
+                </div>
+                <div class="service_card">
+                    <span><i class="ri-nodejs-line"></i></span>
+                    <h4>Node js</h4>
+                </div>
+                <div class="service_card">
+                    <span><i class="ri-css3-line"></i></span>
+                    <h4>CSS</h4>
+                </div>
+                <div class="service_card">
+                    <span><i class="ri-html5-line"></i></span>
+                    <h4>HTML5</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_container service_container" id="tools">
+            <h2 class="section_header">My Tools</h2>
+            <div class="service_grid">
+                <div class="service_card">
+                    <span><i class="fa-brands fa-linux"></i></span>
+                    <h4>Linux</h4>
+                    <p>
+
+                    </p>
+                </div>
+                <div class="service_card">
+                    <span><i class="fa-brands fa-github"></i></span>
+                    <h4>GitHub</h4>
+                    <p>
+
+                    </p>
+                </div>
+                <div class="service_card">
+                    <span><i class="fa-brands fa-windows"></i></span>
+                    <h4>Windows</h4>
+                    <p>
+
+                    </p>
+                </div>
+                <div class="service_card">
+                    <span><i class="fa-brands fa-figma"></i></span>
+                    <h4>Figma</h4>
+                    <p>
+
+                    </p>
+                </div>
+                <div class="service_card">
+                    <span><img src="assets/visual-studio-60.png" alt=""></span>
+                    <h4>Visual Studio</h4>
+                    <p>
+
+                    </p>
+                </div>
+                <div class="service_card">
+                    <span><img src="assets/android-studio-60.png" alt=""></span>
+                    <h4>Android Studio</h4>
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_container resume_container" id="resume">
+            <h2 class="section_header">My Qualifications</h2>
+            <p class="section_description">
+                Combined with a passion for continuous learning, my qualifications
+                extend beyond academia, encompassing hands-on projects and a commitment
+                to staying at the forefront of industry trends.
+            </p>
+            <div class="resume_tabs">
+                <div class="resume_tablist">
+                    <button class="btn_1 active" data-tab="1">Education</button>
+                    <button class="btn_1" data-tab="2">Experience</button>
+                </div>
+                <div class="resume_tabpanel">
+                    <div class="panel_grid active" data-panel="1">
+                        <div class="panel_card">
+                            <span><i class="ri-graduation-cap-fill"></i></span>
+                            <h4>Diploma in Information Technology</h4>
+                            <p class="section_description">Software Development</p>
+                            <p class="section_description">Armed with a Diploma in IT,
+                                I have a solid foundation in software development, data structures,
+                                and algorithms.
+                            </p>
+                        </div>
+                        <div class="panel_card">
+                            <span><i class="ri-graduation-cap-fill"></i></span>
+                            <h4>AWS Certified Cloud Practitioner</h4>
+                            <p class="section_description">Cloud Computing</p>
+                            <p class="section_description">
+                                This certification validates my understanding of core AWS services, cloud architecture, billing, and security 
+                                forming a strong foundation for building and deploying cloud-native applications.
+                        </div>
+                        <div class="panel_card">
+                            <span><i class="ri-graduation-cap-fill"></i></span>
+                            <h4>Linux Power User</h4>
+                            <p class="section_description">System Administration</p>
+                            <p class="section_description">
+                                Comfortable working with the Linux command line, shell scripting, package management,
+                                 and server configuration. I regularly use Linux for development, deployment, and system automation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="panel_grid" data-panel="2">
+                        <div class="panel_card">
+                            <span><i class="ri-macbook-fill"></i></span>
+                            <h4>Intern</h4>
+                            <p class="section_description">Hands-On Industry Experience</p>
+                            <p class="section_description">
+                                As an intern, I have gained hands-on experience in user-support and
+                                computer networking at an IT Department in a government institution.
+                            </p>
+                        </div>
+                        <div class="panel_card">
+                            <span><i class="ri-macbook-fill"></i></span>
+                            <h4>Junior Developer</h4>
+                            <p class="section_description">Nurturing Creativity</p>
+                            <p class="section_description">
+                                As a junior developer, I am dedicated to honing my skills and cultivating
+                                creative instincts.
+                            </p>
+                        </div>
+                        <div class="panel_card">
+                            <span><i class="ri-macbook-fill"></i></span>
+                            <h4>Junior Design Strategist</h4>
+                            <p class="section_description">Shaping Vision into Reality</p>
+                            <p class="section_description">
+                                As a junior design strategist, my focus extends beyond execution to
+                                strategic design thinking.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_container project_container" id="project">
+            <div class="project_header">
+                <h2 class="section_header">Recent Projects</h2>
+                <div class="project_nav">
+                    <button class="btn_1 project_btn mixitup-control-active" data-filter="all">All</button>
+                    <button class="btn_1 project_btn" data-filter=".mobile">Mobile Apps</button>
+                    <button class="btn_1 project_btn" data-filter=".web">Web Development</button>
+                    <button class="btn_1 project_btn" data-filter=".design">Designs</button>
+                </div>
+            </div>
+            <div class="project_grid">
+                <div class="project_card mix mobile">
+                    <img src="assets/junuve.jpg" alt="project"/>
+                    <div class="content">
+                        <h4 class="project_title">FlightReservation</h4>
+                        <p class="project_description">A full-stack flight booking app with user authentication, seat selection, and live C2B M-Pesa payments. Built with Spring Boot and React, and deployed to AWS using ECS Fargate behind an Application Load Balancer (ALB).</p>
+                        <a href="http://flight-app-frontend.s3-website.us-east-2.amazonaws.com/" target="_blank" rel="noopener noreferrer"><i class="ri-github-line"></i></a>
+                    </div>
+                </div>
+                <div class="project_card mix web">
+                    <img src="assets/campoYangu.jpg" alt="project"/>
+                    <div class="content">
+                        <h4 class="project_title">CampoYangu</h4>
+                        <p class="project_description">A full-stack school blogging platform where users can write, manage, and share stories publicly or privately. Built with Node.js, Express, MongoDB, Google OAuth, and server-side rendering using Handlebars.</p>
+                        <a href="https://camppoyangu.onrender.com/" target="_blank" rel="noopener noreferrer"><i class="ri-github-line"></i></a>
+                    </div>
+                </div>
+                <div class="project_card mix design">
+                    <img src="assets/ebay.jpg" alt="project"/>
+                    <div class="content">
+                        <h4 class="project_title">eBay Deal Scraper</h4>
+                        <p class="project_description">A Node.js-based web scraper using Puppeteer to extract products with the lowest prices from eBay in real-time. Helps users find affordable deals quickly and efficiently.</p>
+                        <a href="https://deal-safi.onrender.com" target="_blank" rel="noopener noreferrer"><i class="ri-github-line"></i></a>
+                    </div>
+                </div>
+                <div class="project_card mix mobile">
+                    <img src="assets/safariBot.jpg" alt="project"/>
+                    <div class="content">
+                        <h4 class="project_title">SafariBot</h4>
+                        <p class="project_description">An AI-powered voice assistant for booking EasyCoach tickets via phone. Built with Vapi, OpenAI, and connected to a backend system for real-time reservation handling.<br />
+                                                       Call the agent: <strong>+1 (254) 735 1537</strong></p>
+                        <a href="https://dashboard.vapi.ai/overview" target="_blank" rel="noopener noreferrer"><i class="ri-github-line"></i></a>
+                    </div>
+                </div>
+                <div class="project_card mix web">
+                    <img src="assets/ludo-c.jpg" alt="project"/>
+                    <div class="content">
+                        <h4 class="project_title">Ludo Game</h4>
+                        <p class="project_description">A Python-based Ludo game with AI opponents trained using the PPO algorithm from Stable Baselines3. Combines a custom Gym environment and reinforcement learning to simulate strategic decision-making. Built with Pygame for visualization.</p>
+                        <a href="https://github.com/xavieromondi/smart-ludo.git" target="_blank" rel="noopener noreferrer"><i class="ri-github-line"></i></a>
+                    </div>
+                </div>
+                <div class="project_card mix design">
+                    <img src="assets/figma.jpg" alt="project"/>
+                    <div class="content">
+                        <h4 class="project_title">Figma Design</h4>
+                        <p class="project_description">App design using Figma tool</p>
+                        <a href="https://www.figma.com/files/team/1152894293438547762/recents-and-sharing?fuid=1152894286234120450" target="_blank" rel="noopener noreferrer"><i class="ri-github-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+            <section class="section_container testimonial_container" id="testimonial">
+                <h2 class="section_header">Testimonials</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="client_card">
+                            <p>
+                            I was thoroughly impressed with Xavier's performance during their 
+                            internship in the ICT department. He not only showcased solid technical 
+                            skills in system troubleshooting and user support but also brought great 
+                            energy and a collaborative spirit to the team. His proactive approach and 
+                            keen attention to detail was evident in every task he handled. A true professional 
+                            in the making.
+                        </p>
+                        <div class="client_footer">
+                            <div>
+                                <h4>Collins Otieno</h4>
+                                <h5>Head of ICT LBDC</h5>
+                            </div>
+                            <span><i class="ri-double-quotes-r"></i></span>
+                        </div>
+                        </div>
+                      </div>
+                        <div class="swiper-slide">
+                        <div class="client_card">
+                            <p>
+                             From day one, Xavier approached his internship with enthusiasm, curiosity, and a 
+                             willingness to take on challenges. He quickly became a dependable team member who 
+                             could be trusted to deliver quality work under minimal supervision. His growth over 
+                             the course of the internship was remarkable. I'm confident Xavier has a promising future 
+                             in the ICT industry.
+                        </p>
+                        <div class="client_footer">
+                            <div>
+                                <h4>William Wamwallo</h4>
+                                <h5>ICT Officer LBDC</h5>
+                            </div>
+                            <span><i class="ri-double-quotes-r"></i></span>
+                        </div>
+                        </div>
+                    </div>          
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+            </section>
+
+        <footer class="footer" id="contact">
+            <div class="section_container footer_container">
+                <h2 class="section_header">Get In Touch</h2>
+                <div class="footer_grid">
+                    <div class="footer_content">
+                        <p>Explore more of my work, connect with me on social media, or drop a message.</p>
+                        <p>Let's continue the Tech conversation and embark on new creative journeys together.</p>
+                        <p>Thank you for visting!</p>
+                        <dotlottie-player
+                        src="https://lottie.host/78bf9e20-d9a3-4743-a34a-f01e4e81c0d5/b33YfahZEb.lottie"
+                        background="transparent"
+                        speed="1"
+                        style="width: 300px; height: 300px"
+                        loop
+                        autoplay
+                      ></dotlottie-player>
+                    </div>
+                    <div class="footer_form">
+                        <form id="myForm" onsubmit="return validateForm()" action="https://api.web3forms.com/submit"
+                            method="POST">
+                            <div class="input_row">
+                                <div class="input-field field">
+                                    <input type="hidden" name="access_key" value="02aa29a1-d058-4ea4-ba50-eccaea94c2aa">
+                                    <input type="text" placeholder="Your Name" name="name" id="name-field"
+                                        onkeyup="validateForm()" />
+                                    <span id="name-error"></span>
+                                </div>
+                                <div class="input-field field">
+                                    <input type="email" placeholder="Email Address" name="email" id="email-field"
+                                        onkeyup="validateForm()" />
+                                    <span id="email-error"></span>
+                                </div>
+                            </div>
+                            <div class="textarea-field field">
+                                <textarea name="message" placeholder="Your message..." id="message-field"
+                                    onkeyup="validateForm()"></textarea>
+                                <span id="message-error"></span>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="contact_socials">
+                <a href="https://www.linkedin.com/in/xavier-omondi-1aa380202/" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://github.com/xavieromondi" target="_blank" rel="noopener noreferrer"><i class="ri-github-line"></i></a>
+            </div>
+        </footer>
+
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+
+    </html>
